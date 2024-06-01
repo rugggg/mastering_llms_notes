@@ -50,4 +50,29 @@ Question section
     - varies quite a bit! as small as 100 samples, varies with the scope of your data and problem
 -   talked about multi modal fine tuning
 -   LLMs are very friendly to synthetic data
--   
+
+Build an eval system specific to your domains
+
+ReChat Case Study
+- saying no to building a chatbot even when everyone thinks/says you should do it
+- dont just slap a chatbot on your software/website- it often will break, it also has few scope guidelines, large surface area. You should compromise and be specific to the use case
+- freeform text lets users have basically prompt/ddos your stuff
+- scope is not just what you say it is to the model!
+- PROMPTS ARE NOT GUARDRAILS
+
+Have standards for desired inputs and outputs, ie keep consistent lenghts. 
+using preference optmization techniques,
+- Supervised Fine tuning
+- Human Agent
+- DPO - direct preference optimization
+
+Other options is RLHF - present two options to the human, human picks, use that as training data. 
+
+Q&A session
+
+---
+
+
+
+
+
